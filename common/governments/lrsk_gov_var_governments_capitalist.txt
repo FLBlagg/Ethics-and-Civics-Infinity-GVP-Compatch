@@ -9,7 +9,7 @@ lrsk_gov_var_gov_galactic_cartel = {
 	possible = {
 		OR = {
 			AND = {
-				has_valid_civic = civic_corporate_dominion
+				has_valid_civic = civic_consumerism
 				OR = {
 					has_valid_civic = civic_cutthroat_politics
 					has_valid_civic = civic_shadow_council
@@ -84,7 +84,7 @@ lrsk_gov_var_gov_corporate_neofuedalism = {
 
 	possible = {
 		has_auth_oligarchic = yes
-		has_valid_civic = civic_merchant_guilds
+		has_valid_civic = civic_consumerism
 		has_valid_civic = lrsk_gov_var_civic_enlightened_liberalism
 		NOT = { has_ethic = ethic_egalitarian }
 	}
@@ -108,7 +108,7 @@ lrsk_gov_var_gov_proprietary_franchise = {
 
 	possible = {
 		has_auth_imperial = yes
-		has_valid_civic = civic_merchant_guilds
+		has_valid_civic = civic_real_estate_market
 		has_valid_civic = civic_cutthroat_politics
 	}
 
@@ -125,7 +125,7 @@ lrsk_gov_var_gov_entrepreneurial_council = {
 
 	possible = {
 		has_valid_civic = civic_meritocracy
-		has_valid_civic = civic_aristocratic_elite
+		has_valid_civic = lrsk_gov_var_civic_utilitarian_planning
 	}
 	
 	#leader_class = governor
@@ -235,7 +235,7 @@ lrsk_gov_var_gov_rationalist_managerial_firm = {
 	possible = {
 		OR = {
 			AND = {
-				has_valid_civic = civic_corporate_dominion
+				has_valid_civic = lrsk_gov_var_civic_utilitarian_planning
 				has_valid_civic = civic_technocracy
 			}
 			AND = {
