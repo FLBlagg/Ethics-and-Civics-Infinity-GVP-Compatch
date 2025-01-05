@@ -221,7 +221,7 @@ lrsk_gov_var_gov_market_socialism = {
 
 	possible = {
 		has_valid_civic = lrsk_gov_var_civic_workers_councils
-		has_valid_civic = civic_merchant_guilds
+		has_valid_civic = lrsk_gov_var_civic_business_lobby
 	}
 
 	#leader_class = governor
