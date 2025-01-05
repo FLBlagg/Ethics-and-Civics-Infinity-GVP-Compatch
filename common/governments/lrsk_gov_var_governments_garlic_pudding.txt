@@ -11,8 +11,8 @@ lrsk_gov_var_gov_merchant_principality_d = {
 
 	possible = {
 		has_auth_dictatorial = yes
-		has_valid_civic = civic_philosopher_king
-		has_valid_civic = civic_merchant_guilds
+		has_valid_civic = civic_distinguished_admiralty
+		has_valid_civic = civic_cutthroat_politics
 	}
 
 	weight = {
@@ -31,8 +31,8 @@ lrsk_gov_var_gov_merchant_principality_i = {
 
 	possible = {
 		has_auth_imperial = yes
-		has_valid_civic = civic_philosopher_king
-		has_valid_civic = civic_merchant_guilds
+		has_valid_civic = civic_distinguished_admiralty
+		has_valid_civic = civic_cutthroat_politics
 	}
 
 	weight = {
@@ -48,7 +48,7 @@ lrsk_gov_var_gov_stakeholder_polity = {
 	possible = {
 		has_auth_oligarchic = yes
 		has_valid_civic = lrsk_gov_var_civic_republicanism
-		has_valid_civic = civic_merchant_guilds
+		has_valid_civic = civic_cutthroat_politics
 	}
 
 	weight = {
@@ -64,7 +64,7 @@ lrsk_gov_var_gov_shareholder_commonwealth = {
 	possible = {
 		has_auth_democratic = yes
 		has_valid_civic = lrsk_gov_var_civic_republicanism
-		has_valid_civic = civic_merchant_guilds
+		has_valid_civic = civic_cutthroat_politics
 	}
 
 	#leader_class = governor
