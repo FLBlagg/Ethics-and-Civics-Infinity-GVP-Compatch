@@ -24,7 +24,7 @@ lrsk_gov_var_gov_utopian_despotism_dic = {
 
 	possible = {
 		has_valid_civic = lrsk_gov_var_civic_institutionalized_collectivism
-		has_valid_civic = lrsk_gov_var_civic_automated_indolence
+		has_valid_civic = civic_ultravisionary_socialism
 		has_auth_dictatorial = yes
 	}
 
@@ -40,7 +40,7 @@ lrsk_gov_var_gov_utopian_despotism_imp = {
 
 	possible = {
 		has_valid_civic = lrsk_gov_var_civic_institutionalized_collectivism
-		has_valid_civic = lrsk_gov_var_civic_automated_indolence
+		has_valid_civic = civic_ultravisionary_socialism
 		has_auth_imperial = yes
 	}
 
@@ -55,7 +55,7 @@ lrsk_gov_var_gov_utopian_socialism = {
 
 	possible = {
 		has_valid_civic = lrsk_gov_var_civic_institutionalized_collectivism
-		has_valid_civic = lrsk_gov_var_civic_automated_indolence
+		has_valid_civic = civic_ultravisionary_socialism
 		OR = {
 			has_auth_oligarchic = yes
 			has_auth_democratic = yes
@@ -78,7 +78,7 @@ lrsk_gov_var_gov_social_imperialism = {
 
 	possible = {
 		#has_auth_dictatorial = yes
-		has_valid_civic = lrsk_gov_var_civic_imperial_economy
+		has_valid_civic = lrsk_gov_var_civic_royal_absolutism
 		has_valid_civic = lrsk_gov_var_civic_institutionalized_collectivism
 	}
 
@@ -222,7 +222,7 @@ lrsk_gov_var_gov_reactionary_socialism = {
 			has_auth_oligarchic = yes
 			has_auth_imperial = yes
 		}
-		has_valid_civic = civic_aristocratic_elite
+		has_valid_civic = lrsk_gov_var_civic_supremacist_demagoguery
 		has_valid_civic = lrsk_gov_var_civic_institutionalized_collectivism
 	}
 	
@@ -245,7 +245,7 @@ lrsk_gov_var_gov_feudal_socialism = {
 
 	possible = {
 		has_auth_imperial = yes
-		has_valid_civic = civic_feudal_realm
+		has_valid_civic = lrsk_gov_var_civic_colonial_fiefs
 		has_valid_civic = lrsk_gov_var_civic_institutionalized_collectivism
 	}
 
