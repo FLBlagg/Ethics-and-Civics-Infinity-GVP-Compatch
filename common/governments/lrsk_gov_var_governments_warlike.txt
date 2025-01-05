@@ -9,7 +9,7 @@ lrsk_gov_var_gov_galactic_dominion = {
 	possible = {
 		has_auth_dictatorial = yes
 		has_valid_civic = lrsk_gov_var_civic_universal_sovereignty
-		has_valid_civic = lrsk_gov_var_civic_imperial_economy
+		has_valid_civic = civic_xeno_militarist
 		OR = {
 			has_ethic = ethic_militarist
 			has_ethic = ethic_fanatic_militarist
@@ -34,7 +34,7 @@ lrsk_gov_var_gov_galactic_imperium = {
 	possible = {
 		has_auth_imperial = yes
 		has_valid_civic = lrsk_gov_var_civic_universal_sovereignty
-		has_valid_civic = lrsk_gov_var_civic_imperial_economy
+		has_valid_civic = civic_xeno_militarist
 		OR = {
 			has_ethic = ethic_militarist
 			has_ethic = ethic_fanatic_militarist
@@ -227,7 +227,7 @@ lrsk_gov_var_gov_citizen_crusade = {
 	ruler_title_female = LRSK_GOV_VAR_RT_MP_MARSHALL
 
 	possible = {		
-		has_valid_civic = civic_citizen_service
+		has_valid_civic = civic_army_production
 		OR = {
 			has_valid_civic = civic_exalted_priesthood
 			has_valid_civic = lrsk_gov_var_civic_elected_clergy
@@ -253,7 +253,7 @@ lrsk_gov_var_gov_private_military_contractor = {
 		OR = {
 			AND = {
 				has_valid_civic = civic_corporate_dominion
-				has_valid_civic = civic_citizen_service
+				has_valid_civic = civic_army_production
 			}
 			AND = {
 				has_auth_corporate = yes
@@ -350,7 +350,7 @@ lrsk_gov_var_gov_citizen_legion = {
 
 	possible = {
 		has_valid_civic = civic_fanatic_purifiers
-		has_valid_civic = civic_citizen_service
+		has_valid_civic = civic_army_production
 	}
 
 	#leader_class = admiral
