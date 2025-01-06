@@ -122,7 +122,6 @@ lrsk_gov_var_gov_revolutionary_republic = {
 	}
 }
 
-
 # Republican Directory
 lrsk_gov_var_gov_republican_directory = {
 	ruler_title = LRSK_GOV_VAR_RT_PRES_COUNC
