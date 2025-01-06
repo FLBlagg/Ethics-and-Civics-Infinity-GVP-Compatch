@@ -108,7 +108,11 @@ lrsk_gov_var_gov_revolutionary_republic = {
 			# Alternatively, Nationalistic Zeal
 			has_valid_civic = civic_nationalistic_zeal
 		}
-		has_ethic = ethic_fanatic_egalitarian
+		# Either Fanatic Egalitarian or Egalitarian required
+		OR = {
+			has_ethic = ethic_fanatic_egalitarian
+			has_ethic = ethic_egalitarian
+		}
 	}
 	
 	#leader_class = governor
@@ -117,6 +121,7 @@ lrsk_gov_var_gov_revolutionary_republic = {
 		base = @lrsk_gov_civic_weight_low_L1
 	}
 }
+
 
 # Republican Directory
 lrsk_gov_var_gov_republican_directory = {
