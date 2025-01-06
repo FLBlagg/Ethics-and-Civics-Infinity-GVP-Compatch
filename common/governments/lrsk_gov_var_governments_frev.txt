@@ -99,8 +99,15 @@ lrsk_gov_var_gov_revolutionary_republic = {
 	ruler_title = LRSK_GOV_VAR_RT_SECCOM
 
 	possible = {
-		has_valid_civic = lrsk_gov_var_civic_republicanism
-		has_valid_civic = civic_idealistic_foundation
+		OR = {
+			# Both Republicanism and Idealistic Foundation required
+			AND = {
+				has_valid_civic = lrsk_gov_var_civic_republicanism
+				has_valid_civic = civic_idealistic_foundation
+			}
+			# Alternatively, Nationalistic Zeal
+			has_valid_civic = civic_nationalistic_zeal
+		}
 		has_ethic = ethic_fanatic_egalitarian
 	}
 	
